@@ -1,0 +1,19 @@
+title: Go
+image: /media/platforms/golang.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-platforms/golang/dependencies
+  setup: server-platforms/golang/setup
+  use: server-platforms/golang/use
+seo_alias: golang
+default_article: 01-login
+articles:
+  - 01-login
+show_steps: false
+github:
+  org: auth0-samples
+  repo: auth0-golang-web-app
+  branch: master
+requirements:
+	- Go 1.5.3 and up

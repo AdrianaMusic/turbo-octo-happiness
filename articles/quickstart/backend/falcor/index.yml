@@ -1,0 +1,26 @@
+title: Falcor API
+community: true
+thirdParty: false
+author:
+  community: true
+alias:
+  - falcor
+languages:
+  - Javascript
+image: /media/platforms/falcor.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-apis/falcor/dependencies
+  setup: server-apis/falcor/setup
+  use: server-apis/falcor/use
+articles:
+  - 01-authorization
+  - 02-using
+show_steps: false
+github:
+  org: auth0-community
+  repo: auth0-falcor-api
+requirements:
+  - Falcor 0.1.17
+  - Express 4.15.2

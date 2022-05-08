@@ -1,0 +1,26 @@
+title: ASP.NET Core v2.0
+image: /media/platforms/asp.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-platforms/aspnet-core/dependencies
+alias:
+  - aspnetcore
+  - aspnetcore-2.0
+seo_alias: aspnet-core
+default_article: dashboard-default
+articles:
+  - 00-intro
+  - 01-login
+  - 02-user-profile
+  - 03-authorization
+show_steps: false
+github:
+  org: auth0-samples
+  repo: auth0-aspnetcore-mvc-samples
+  branch: master
+requirements:
+  - .NET Core SDK 2.0
+  - .NET Core 2.0
+  - ASP.NET Core 2.0
+  - Microsoft Visual Studio 2017 Update 3 or .NET core command line tools

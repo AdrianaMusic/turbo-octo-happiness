@@ -1,0 +1,26 @@
+title: Node.js
+image: /media/platforms/node.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-platforms/nodejs/dependencies
+  setup: server-platforms/nodejs/setup
+  use: server-platforms/nodejs/use
+alias:
+  - node
+  - express
+  - node-connect
+  - passport
+seo_alias: nodejs
+default_article: 01-login
+articles:
+  - 01-login
+  - 02-user-profile
+show_steps: false
+github:
+  org: auth0-samples
+  repo: auth0-nodejs-webapp-sample
+  branch: master
+requirements:
+  - NodeJS 4.3 or higher
+  - Express 4.16

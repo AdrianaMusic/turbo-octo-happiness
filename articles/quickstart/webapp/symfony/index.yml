@@ -1,0 +1,22 @@
+title: PHP (Symfony)
+author:
+  community: true
+image: /media/platforms/php.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-platforms/symfony/dependencies
+  setup: server-platforms/symfony/setup
+  use: server-platforms/symfony/use
+seo_alias: symfony
+default_article: 01-login
+articles:
+  - 01-login
+show_steps: false
+github:
+  org: auth0-community
+  repo: auth0-symfony-php-web-app
+  branch: master
+requirements:
+  - PHP 5.6, 7.0
+  - Symfony 3.* 
