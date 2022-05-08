@@ -1,0 +1,20 @@
+title: PHP API
+alias:
+  - php
+languages:
+  - PHP
+author:
+  name: Josh Cunningham
+  email: josh.cunningham@auth0.com
+  community: false
+thirdParty: false
+image: /media/platforms/php.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-apis/php/dependencies
+  setup: server-apis/php/setup
+  use: server-apis/php/use
+articles:
+  - 01-authentication
+  - 02-using
