@@ -1,0 +1,26 @@
+title: JavaScript
+language:
+  - JavaScript
+image: /media/platforms/html5.png
+topics:
+  - quickstart
+snippets:
+  dependencies: application-platforms/vanillajs/dependencies
+  setup: application-platforms/vanillajs/setup
+  use: application-platforms/vanillajs/use
+alias:
+  - vanilla
+  - vanillajs
+  - spa
+  - single-page-app
+  - html5
+  - backendless
+  - javascript-app
+seo_alias: vanillajs
+default_article: dashboard-default
+articles:
+  - 01-login
+  - 02-user-profile
+  - 03-calling-an-api
+  - 04-authorization
+  - 05-token-renewal

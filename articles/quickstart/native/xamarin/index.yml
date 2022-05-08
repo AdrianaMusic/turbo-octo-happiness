@@ -1,0 +1,18 @@
+title: Xamarin
+author:
+  community: true
+language:
+  - C#
+framework:
+  - Xamarin
+hybrid: false
+image: /media/platforms/xamarin.png
+topics:
+  - quickstart
+snippets:
+  dependencies: native-platforms/xamarin/dependencies
+  setup: native-platforms/xamarin/setup
+seo_alias: xamarin
+default_article: 01-login
+articles:
+  - 01-login

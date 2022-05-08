@@ -1,0 +1,19 @@
+title: Node (Express) API
+thirdParty: false
+alias:
+  - node
+  - nodejs
+  - node.js
+  - express
+languages:
+  - Javascript
+image: /media/platforms/node.png
+topics:
+  - quickstart
+snippets:
+  dependencies: server-apis/nodejs/dependencies
+  setup: server-apis/nodejs/setup
+  use: server-apis/nodejs/use
+articles:
+  - 01-authorization
+  - 02-using
