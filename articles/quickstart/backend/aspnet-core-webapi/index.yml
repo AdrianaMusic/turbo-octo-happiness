@@ -1,0 +1,28 @@
+title: ASP.NET Core Web API
+alias:
+  - asp.net core webapi
+  - aspnet core webapi
+language:
+  - C#
+framework:
+  - ASP.NET Core
+thirdParty: false
+image: /media/platforms/asp.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-apis/aspnet-core-webapi/dependencies
+current_version: v2
+versions:
+  v1:
+    title: v1.1
+    articles:
+      - 01-authorization
+      - 02-using
+      - 03-troubleshooting
+  v2:
+    title: v2.0
+    articles:
+      - 01-authorization
+      - 02-using
+      - 03-troubleshooting
