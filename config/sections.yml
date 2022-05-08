@@ -1,0 +1,26 @@
+## ------------------------------------------------------------
+## Top Nav Configuration
+## This document contains configuration for the top nav sections
+##
+## ------------------------------------------------------------
+
+- id: "articles"
+  title: "Articles"
+  url: "/getting-started"
+  folder: ""
+  default: true
+
+- id: "quickstarts"
+  title: "QuickStarts"
+  url: "/quickstarts"
+  folder: "quickstart"
+
+- id: "apis"
+  title: "Auth0 APIs"
+  url: "/api/info"
+  folder: "api"
+
+- id: "libraries"
+  title: "Libraries"
+  url: "/libraries"
+  folder: "libraries"
