@@ -1,0 +1,22 @@
+title: jQuery
+alias:
+  - jquery
+language:
+  - Javascript
+framework:
+  - jQuery
+image: //upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg
+tags:
+  - quickstart
+snippets:
+  dependencies: client-platforms/jquery/dependencies
+  setup: client-platforms/jquery/setup
+  use: client-platforms/jquery/use
+seo_alias: jquery
+default_article: dashboard-default
+articles:
+  - 01-login
+  - 02-user-profile
+  - 03-calling-an-api
+  - 04-authorization
+  - 05-token-renewal
