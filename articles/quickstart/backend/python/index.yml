@@ -1,0 +1,16 @@
+title: Python API
+alias:
+  - python
+languages:
+  - Python
+thirdParty: false
+image: /media/platforms/python.png
+topics:
+  - quickstart
+snippets:
+  dependencies: server-apis/python/dependencies
+  setup: server-apis/python/setup
+  use: server-apis/python/use
+articles:
+  - 01-authorization
+  - 02-using

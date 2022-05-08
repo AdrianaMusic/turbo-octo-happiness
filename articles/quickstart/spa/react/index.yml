@@ -1,0 +1,23 @@
+title: React
+alias:
+  - react
+  - reactjs
+language:
+  - Javascript
+framework:
+  - React
+image: /media/platforms/react.png
+topics:
+  - quickstart
+snippets:
+  dependencies: application-platforms/react/dependencies
+  setup: application-platforms/react/setup
+  use: application-platforms/react/use
+seo_alias: react
+default_article: dashboard-default
+articles:
+  - 01-login
+  - 02-user-profile
+  - 03-calling-an-api
+  - 04-authorization
+  - 05-token-renewal
