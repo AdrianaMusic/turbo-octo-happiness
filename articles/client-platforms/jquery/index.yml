@@ -1,0 +1,28 @@
+title: jQuery
+alias:
+  - jquery
+language:
+  - Javascript
+framework:
+  - jQuery
+image: //upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg
+tags:
+  - quickstart
+snippets:
+  dependencies: client-platforms/jquery/dependencies
+  setup: client-platforms/jquery/setup
+  use: client-platforms/jquery/use
+seo_alias: jquery
+default_article: dashboard-default
+articles:
+  - 00-intro
+  - 01-login
+  - 02-custom-login
+  - 03-session-handling
+  - 04-user-profile
+  - 05-linking-accounts
+  - 06-rules
+  - 07-authorization
+  - 08-calling-apis
+  - 09-mfa
+  - 10-customizing-lock

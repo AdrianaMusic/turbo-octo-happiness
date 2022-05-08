@@ -1,0 +1,32 @@
+title: JavaScript
+language:
+  - JavaScript
+image: /media/platforms/html5.png
+tags:
+  - quickstart
+snippets:
+  dependencies: client-platforms/vanillajs/dependencies
+  setup: client-platforms/vanillajs/setup
+  use: client-platforms/vanillajs/use
+alias:
+  - vanilla
+  - vanillajs
+  - spa
+  - single-page-app
+  - html5
+  - backendless
+  - javascript-app
+seo_alias: vanillajs
+default_article: dashboard-default
+articles:
+  - 00-intro
+  - 01-login
+  - 02-custom-login
+  - 03-session-handling
+  - 04-user-profile
+  - 05-linking-accounts
+  - 06-rules
+  - 07-authorization
+  - 08-calling-apis
+  - 09-mfa
+  - 10-customizing-lock
