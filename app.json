@@ -1,0 +1,23 @@
+{
+  "name": "auth0-docs-content",
+  "scripts": {
+  },
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    },
+    "NODE_ENV": {
+      "required": true
+    },
+    "DISABLE_CDN": {
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "GIT_SSH_KEY": {
+      "required": true
+    }
+  },
+  "addons": []
+}
