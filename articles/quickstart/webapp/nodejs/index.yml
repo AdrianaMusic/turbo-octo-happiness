@@ -1,0 +1,18 @@
+title: Node.js
+image: /media/platforms/node.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-platforms/nodejs/dependencies
+  setup: server-platforms/nodejs/setup
+  use: server-platforms/nodejs/use
+alias:
+  - node
+  - express
+  - node-connect
+  - passport
+seo_alias: nodejs
+default_article: 01-login
+articles:
+  - 01-login
+  - 02-user-profile
