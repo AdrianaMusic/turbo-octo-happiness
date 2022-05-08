@@ -1,0 +1,865 @@
+## ------------------------------------------------------------
+## Sidebar Nav Configuration
+## This document contains configuration for the sidebar
+##
+## ------------------------------------------------------------
+
+articles:
+
+  - title: Getting Started
+    url: "/getting-started"
+    children:
+      - title: Auth0 Overview
+        url: /getting-started/overview
+      
+      - title: The Basics
+        url: /getting-started/the-basics
+      
+      - title: Dashboard Overview
+        url: /getting-started/dashboard-overview
+
+      - title: Deployment Models
+        url: /getting-started/deployment-models
+
+      - title: Videos
+        url: /videos
+        children:
+
+        - title: Rules
+          url: /videos/rules
+
+        - title: Session & Cookies
+          url: /videos/session-and-cookies
+
+  - title: Architecture Scenarios
+    url: /architecture-scenarios
+
+    children:
+      - title: SSO for Regular Web Apps
+        url: /architecture-scenarios/application/web-app-sso
+        children:
+           - title: Solution Overview
+             url: /architecture-scenarios/application/web-app-sso/part-1
+           
+           - title: Configuration
+             url: /architecture-scenarios/application/web-app-sso/part-2
+           
+           - title: Implementation
+             url: /architecture-scenarios/application/web-app-sso/part-3
+           
+           - title: Conclusion
+             url: /architecture-scenarios/application/web-app-sso/part-4
+
+      - title: Server Client + API
+        url: /architecture-scenarios/application/server-api
+        children:
+           - title: Solution Overview
+             url: /architecture-scenarios/application/server-api/part-1
+           
+           - title: Configuration
+             url: /architecture-scenarios/application/server-api/part-2
+           
+           - title: Implementation
+             url: /architecture-scenarios/application/server-api/part-3
+           
+           - title: Conclusion
+             url: /architecture-scenarios/application/server-api/part-4
+
+      - title: SPA + API
+        url: /architecture-scenarios/application/spa-api
+        children:
+           - title: Solution Overview
+             url: /architecture-scenarios/application/spa-api/part-1
+           
+           - title: Configuration
+             url: /architecture-scenarios/application/spa-api/part-2
+           
+           - title: Implementation
+             url: /architecture-scenarios/application/spa-api/part-3
+           
+           - title: Conclusion
+             url: /architecture-scenarios/application/spa-api/part-4
+
+      - title: Mobile + API
+        url: /architecture-scenarios/application/mobile-api
+        children:
+           - title: Solution Overview
+             url: /architecture-scenarios/application/mobile-api/part-1
+           
+           - title: Configuration
+             url: /architecture-scenarios/application/mobile-api/part-2
+           
+           - title: Implementation
+             url: /architecture-scenarios/application/mobile-api/part-3
+           
+           - title: Conclusion
+             url: /architecture-scenarios/application/mobile-api/part-4
+
+      # - title: SAML for Regular Web Apps
+      #   url: /architecture-scenarios/application/web-saml
+
+      # - title: B2B + B2E
+      #   url: /architecture-scenarios/business/b2b-b2e
+
+      # - title: B2B
+      #   url: /architecture-scenarios/business/b2b
+
+      # - title: B2C
+      #   url: /architecture-scenarios/business/b2c
+
+      # - title: B2E
+      #   url: /architecture-scenarios/business/b2e 
+
+  - title: "Clients"
+    url: "/clients"
+    children:
+
+      - title: Overview
+        url: /clients
+
+      - title: Connections
+        url: /clients/connections
+
+      - title: Client Types
+        url: /clients/client-types
+
+      - title: Grant Types
+        url: /clients/client-grant-types
+
+  - title: "APIs"
+    url: "/apis"
+    children:
+
+      - title: "Overview"
+        url: "/apis"
+
+      - title: "Authorization API Index"
+        url: "/api-auth"
+
+      - title: "OIDC Conformant Authentication"
+        url: "/api-auth/intro"
+
+      - title: "OIDC Adoption Guide"
+        url: "/api-auth/tutorials/adoption"
+
+      - title: "Which OAuth Flow to Use"
+        url: "/api-auth/which-oauth-flow-to-use"
+
+      - title: "APIs & Server-side Apps"
+        url: "/api-auth/grant/authorization-code"
+
+      - title: "APIs & Mobile Apps"
+        url: "/api-auth/grant/authorization-code-pkce"
+
+      - title: "APIs & Client-side Apps"
+        url: "/api-auth/grant/implicit"
+
+      - title: "APIs & CLIs"
+        url: "/api-auth/grant/client-credentials"
+
+      - title: "APIs & Trusted Clients"
+        url: "/api-auth/grant/password"
+
+      - title: "Dynamic Client Registration"
+        url: "/api-auth/dynamic-client-registration"
+
+      - title: "Verify Access Tokens"
+        url: "/api-auth/tutorials/verify-access-token"
+
+  - title: "Connections"
+    url: "/connections"
+    children:
+      - title: "Overview"
+        url: "/connections"
+
+      - title: "Username/Password"
+        url: "/connections/database"
+
+      - title: "Social/Enterprise"
+        url: "/identityproviders"
+        children:
+          - title: "Custom Social Extensions"
+            url: "/extensions/custom-social-extensions"
+
+      - title: "Custom Database"
+        url: "/connections/database/custom-db"
+
+      - title: "Passwordless Authentication"
+        url: "/connections/passwordless"
+        children:
+
+          - title: "Using Email"
+            url: "/connections/passwordless/email"
+
+          - title: "Using SMS"
+            url: "/connections/passwordless/sms"
+
+          - title: "FAQ"
+            url: "/connections/passwordless/faq"
+
+  - title: "Hosted Pages"
+    url: "/hosted-pages"
+    children:
+
+      - title: "Overview"
+        url: "/hosted-pages"
+
+      - title: "Login Page"
+        url: "/hosted-pages/login"
+        children:
+
+            - title: "Using Lock"
+              url: "/hosted-pages/login/lock"
+
+            - title: "Using Lock Passwordless"
+              url: "/hosted-pages/login/lock-passwordless"
+
+            - title: "Using Auth0.js"
+              url: "/hosted-pages/login/auth0js/v8"
+
+      - title: "Password Reset Page"
+        url: "/hosted-pages/password-reset"
+      
+      - title: "Guardian MFA"
+        url: "/hosted-pages/guardian"
+
+      - title: "Error Pages"
+        url: "/hosted-pages/error-pages"
+
+      - title: "Version Control"
+        url: "/hosted-pages/version-control"
+
+  - title: "Rules"
+    url: "/rules/current"
+    children:
+
+      - title: "Overview"
+        url: "/rules/current"
+
+      - title: "User Metadata in Rules"
+        url: "/rules/metadata-in-rules"
+
+      - title: "Use the Management API in rules"
+        url: "/rules/current/management-api"
+      
+      - title: "Using C# in Rules"
+        url: "/rules/current/csharp"
+
+      - title: "Deploy Rules with GitHub"
+        url: "/extensions/github-deploy"
+
+      - title: "Deploy Rules with Bitbucket"
+        url: "/extensions/bitbucket-deploy"
+
+      - title: "Deploy Rules with GitLab"
+        url: "/extensions/gitlab-deploy"
+
+  - title: "Hooks (Beta)"
+    url: "/hooks"
+    children:
+
+      - title: "Index"
+        url: "/hooks"
+
+      - title: "Overview"
+        url: "/hooks/overview"
+
+      - title: "Extensibility Points"
+        url: "/hooks/extensibility-points"
+
+      - title: "Using the Auth0 CLI"
+        url: "/hooks/cli"
+
+      - title: "Using the Dashboard"
+        url: "/hooks/dashboard"
+
+  - title: "Email"
+    url: "/email"
+    children:
+      - title: "Overview"
+        url: "/email"
+
+      - title: "Custom Email Handling"
+        url: "/email/custom"
+
+      - title: "Customizing Your Emails"
+        url: "/email/templates"
+
+      - title: "Use your own SMTP Email Provider"
+        url: "/email/providers"
+
+      - title: "Liquid Syntax in Email Templates"
+        url: "/email/liquid-syntax"
+
+      - title: "Set up a Test SMTP Provider"
+        url: "/email/testing"
+
+  - title: "Password Policies"
+    url: "/connections/database/password-options"
+    children:
+      - title: "Password Options"
+        url: "/connections/database/password-options"
+
+      - title: "Password Strength"
+        url: "/connections/database/password-strength"
+
+  - title: "User Management"
+    url: "/users"
+    children:
+      - title: "User Profile"
+        url: "/user-profile"
+        children:
+          - title: "Structure"
+            url: "/user-profile/user-profile-structure"
+
+          - title: "Details"
+            url: "/user-profile/user-profile-details"
+
+          - title: "Normalized User Profile"
+            url: "/user-profile/normalized/auth0"
+
+          - title: "Picture"
+            url: "/user-profile/user-picture"
+
+      - title: "User Search"
+        url: "/users/search"
+
+      - title: "User Metadata"
+        url: "/metadata"
+
+      - title: "User Impersonation"
+        url: "/user-profile/user-impersonation"
+
+      - title: "Delegated Administration"
+        url: "/extensions/delegated-admin"
+
+      - title: "Authorization Extension"
+        url: "/extensions/authorization-extension/v2"
+
+      - title: "Progressive Profiling"
+        url: "/user-profile/progressive-profiling"
+
+      - title: "Data Storage"
+        url: "/user-profile/user-data-storage"
+
+      - title: "User Migration"
+        url: "/users/migrations"
+        children:
+          - title: "Automatic Migration"
+            url: "/users/migrations/automatic"
+
+          - title: "Bulk Migration"
+            url: "/users/migrations/bulk-import"
+
+          - title: "User Import/Export Extension"
+            url: "/extensions/user-import-export"
+
+          - title: "Gigya"
+            url: "/users/migrations/gigya"
+
+          - title: "Okta"
+            url: "/users/migrations/okta"
+
+          - title: "Stormpath"
+            url: "/users/migrations/stormpath"
+
+  - title: "Multifactor Authentication"
+    url: "/multifactor-authentication"
+    children:
+      - title: "Overview"
+        url: "/multifactor-authentication"
+
+      - title: "Guardian"
+        url: "/multifactor-authentication/guardian"
+        children:
+          - title: "For Administrators"
+            url: "/multifactor-authentication/administrator"
+
+          - title: "For Developers"
+            url: "/multifactor-authentication/developer"
+
+          - title: "For Users"
+            url: "/multifactor-authentication/guardian/user-guide"
+
+      - title: "Google Authenticator"
+        url: "/multifactor-authentication/google-authenticator"
+        children:
+          - title: "For Administrators"
+            url: "/multifactor-authentication/google-auth/admin-guide"
+
+          - title: "For Developers"
+            url: "/multifactor-authentication/google-auth/dev-guide"
+
+          - title: "For Users"
+            url: "/multifactor-authentication/google-auth/user-guide"
+
+      - title: "Duo Security"
+        url: "/multifactor-authentication/duo"
+        children:
+          - title: "For Administrators"
+            url: "/multifactor-authentication/duo/admin-guide"
+
+          - title: "For Developers"
+            url: "/multifactor-authentication/duo/dev-guide"
+
+          - title: "For Users"
+            url: "/multifactor-authentication/duo/user-guide"
+
+      - title: "Custom MFA"
+        url: "/multifactor-authentication/custom"
+
+      - title: "Yubikey NEO Example"
+        url: "/multifactor-authentication/yubikey"
+
+  - title: "Security"
+    url: "/security"
+    children:
+
+      - title: "Bulletins"
+        url: "/security/bulletins"
+        childern:
+          - title: "CVE 2017-17068"
+            url: "/security/bulletins/cve-2017-17068"
+
+  - title: "Anomaly Detection"
+    url: "/anomaly-detection"
+    children:
+
+      - title: "Overview"
+        url: "/anomaly-detection"
+
+      - title: "Breached Passwords"
+        url: "/anomaly-detection/breached-passwords"
+
+  - title: "Analytics"
+    url: "/analytics/integrations"
+    children:
+
+      - title: "Facebook Analytics"
+        url: "/analytics/integrations/facebook-analytics"
+
+      - title: "Google Analytics"
+        url: "/analytics/integrations/google-analytics"
+
+  - title: "Integrations"
+    url: "/integrations"
+    children:
+
+      - title: "Marketing"
+        url: "/integrations/marketing"
+        children:
+
+          - title: "Adobe Campaign"
+            url: "/integrations/marketing/adobe-campaign"
+
+          - title: "Alterian"
+            url: "/integrations/marketing/alterian"
+
+          - title: "Constant Contact"
+            url: "/integrations/marketing/constant-contact"
+
+          - title: "Oracle Eloqua"
+            url: "/integrations/marketing/eloqua"
+
+          - title: "MailChimp"
+            url: "/integrations/marketing/mailchimp"
+
+          - title: "Marketo"
+            url: "/integrations/marketing/marketo"
+
+          - title: "Sailthru"
+            url: "/integrations/marketing/marketo"
+
+          - title: "Salesforce"
+            url: "/integrations/marketing/salesforce"
+
+          - title: "Salesforce Marketing Cloud"
+            url: "/integrations/marketing/salesforce-marketing-cloud"
+
+          - title: "Watson Campaign Automation"
+            url: "/integrations/marketing/watson-campaign-automation"
+
+      - title: "Single Sign On"
+        url: "/sso/current/integrations"
+
+
+  - title: "Addons/Third-Party Apps"
+    url: "/addons"
+    children:
+
+      - title: "Overview"
+        url: "/addons"
+
+  - title: "Support"
+    url: "/support"
+    children:
+      - title: "Support Options"
+        url: "/support"
+
+      - title: "Support Matrix"
+        url: "/support/matrix"
+
+      - title: "SLA"
+        url: "/support/sla"
+
+      - title: "Tickets"
+        url: "/support/tickets"
+
+      - title: "Manage Subscription"
+        url: "/support/subscription"
+
+      - title: "Operational Policies"
+        url: "/policies"
+    
+  - title: "Pre-Deployment"
+    url: "/pre-deployment"
+    children:
+      - title: Useful Tips
+        url: /pre-deployment/prelaunch-tips
+      
+      - title: Run Tests
+        url: /pre-deployment/how-to-run-test
+
+  - title: "Professional Services"
+    url: "/services"
+    children:
+      - title: "Overview"
+        url: "/services"
+
+      - title: "Architectural Design Sessions"
+        url: "/services/architectural-design"
+      
+      - title: "Performance and Scalability"
+        url: "/services/performance-scalability"
+
+      - title: "Scenario guidance"
+        url: "/services/scenario-guidance"
+
+      - title: "Code Review"
+        url: "/services/code-review"
+
+      - title: "Pair Programming"
+        url: "/services/pair-programming"
+      
+      - title: "Private SaaS reconfiguration"
+        url: "/services/private-saas-configuration"
+
+      - title: "Auth0 Introduction"
+        url: "/services/auth0-introduction"
+
+      - title: "Auth0 Advanced Topics"
+        url: "/services/auth0-advanced"
+
+      - title: "Private SaaS Management Workshop"
+        url: "/services/private-saas-management"
+
+      - title: "Jumpstart"
+        url: "/services/jumpstart"
+
+apis:
+
+  - title: "Overview"
+    url: "/api/info"
+
+  - title: "Testing with Postman"
+    url: "/api/postman"
+
+  - title: Authentication API
+    url: "/api/authentication"
+    external: true
+    forceFullReload: true
+
+  - title: Management API
+    url: "/api/management/v2/tokens"
+    forceFullReload: true
+    expanded: 1
+    children:
+
+      - title: API Tokens
+        url: "/api/management/v2/tokens"
+        forceFullReload: true
+        children:
+        - title: Changes
+          url: "/api/management/v2/tokens-flows"
+
+      - title: Query String Syntax
+        url: "/api/management/v2/query-string-syntax"
+        forceFullReload: true
+
+      - title: User Search
+        url: "/api/management/v2/user-search"
+        forceFullReload: true
+
+      - title: Changes in v2
+        url: "/api/management/v2/changes"
+        forceFullReload: true
+
+      - title: API Explorer
+        url: "/api/management/v2/"
+        forceFullReload: true
+        external: true
+
+libraries:
+
+  - title: "Overview"
+    url: "/libraries"
+
+  - title: "Lock for Web"
+    url: "/libraries/lock/v11"
+    children:
+
+      - title: "Overview"
+        url: "/libraries/lock/v11"
+
+      - title: "Configuration Options"
+        url: "/libraries/lock/v11/configuration"
+
+      - title: "API Reference"
+        url: "/libraries/lock/v11/api"
+
+      - title: "UI Customization"
+        url: "/libraries/lock/v11/ui-customization"
+
+      - title: "Migration Guide"
+        url: "/libraries/lock/v11/migration-guide"
+
+      - title: "Internationalization"
+        url: "/libraries/lock/v11/i18n"
+
+      - title: "Customizing Errors"
+        url: "/libraries/lock/v11/customizing-error-messages"
+
+      - title: "Lock with auth0.js"
+        url: "/libraries/lock/v11/auth0js"
+
+      - title: "Authentication Modes"
+        url: "/libraries/lock/v11/authentication-modes"
+
+  - title: "Lock for iOS"
+    url: "/libraries/lock-ios/v2"
+    children:
+
+      - title: "Overview"
+        url: "/libraries/lock-ios/v2"
+
+      - title: "Styles Customization"
+        url: "/libraries/lock-ios/v2/customization"
+
+      - title: "Behavior Configuration"
+        url: "/libraries/lock-ios/v2/configuration"
+
+      - title: "Custom Fields"
+        url: "/libraries/lock-ios/v2/custom-fields"
+
+      - title: "Internationalization"
+        url: "/libraries/lock-ios/v2/internationalization"
+
+      - title: "Passwordless"
+        url: "/libraries/lock-ios/v2/passwordless"
+
+      - title: "Migration Guide"
+        url: "/libraries/lock-ios/v2/migration"
+
+  - title: "Lock for Android"
+    url: "/libraries/lock-android/v2"
+    children:
+
+      - title: "Overview"
+        url: "/libraries/lock-android/v2"
+
+      - title: "Configuration Options"
+        url: "/libraries/lock-android/v2/configuration"
+
+      - title: "Custom Auth Providers"
+        url: "/libraries/lock-android/v2/custom-authentication-providers"
+
+      - title: "Android Dev Keystores"
+        url: "/libraries/lock-android/v2/keystore"
+
+      - title: "Custom Signup Fields"
+        url: "/libraries/lock-android/v2/custom-fields"
+
+      - title: "Custom Theming"
+        url: "/libraries/lock-android/v2/custom-theming"
+
+      - title: "Migration v1 to v2"
+        url: "/libraries/lock-android/v2/migration-guide"
+
+      - title: "Passwordless Auth"
+        url: "/libraries/lock-android/v2/passwordless"
+
+      - title: "Internationalization"
+        url: "/libraries/lock-android/v2/internationalization"
+
+  - title: "Lock vs. Custom UI"
+    url: "/libraries/when-to-use-lock"
+
+  - title: "Auth0 SDK for Web"
+    url: "/libraries/auth0js/v9"
+    children:
+
+      - title: "Auth0.js"
+        url: "/libraries/auth0js/v9"
+
+      - title: "Migration Guide"
+        url: "/libraries/auth0js/v9/migration-guide"
+
+  - title: "Auth0 SDK for iOS"
+    url: "/libraries/auth0-swift"
+    children:
+
+      - title: "Overview"
+        url: "/libraries/auth0-swift"
+
+      - title: "Database Authentication"
+        url: "/libraries/auth0-swift/database-authentication"
+
+      - title: "User Management"
+        url: "/libraries/auth0-swift/user-management"
+
+      - title: "Passwordless Authentication"
+        url: "/libraries/auth0-swift/passwordless"
+
+      - title: "Refresh Tokens"
+        url: "/libraries/auth0-swift/save-and-refresh-jwt-tokens"
+
+      - title: "TouchID"
+        url: "/libraries/auth0-swift/touchid-authentication"
+
+  - title: "Auth0 SDK for Android"
+    url: "/libraries/auth0-android"
+    children:
+
+      - title: "Overview"
+        url: "/libraries/auth0-android"
+
+      - title: "Configuration"
+        url: "/libraries/auth0-android/configuration"
+
+      - title: "Database Authentication"
+        url: "/libraries/auth0-android/database-authentication"
+
+      - title: "User Management"
+        url: "/libraries/auth0-android/user-management"
+
+      - title: "Passwordless"
+        url: "/libraries/auth0-android/passwordless"
+
+      - title: "Refresh Tokens"
+        url: "/libraries/auth0-android/save-and-refresh-tokens"
+
+appliance:
+
+  - title: "Introduction"
+    url: "/appliance"
+
+  - title: "Support"
+    url: "/appliance/critical-issue"
+    expanded: 1
+    children:
+      - title: Critical Issue
+        url: /appliance/critical-issue
+      - title: Enterprise Support
+        url: /onboarding/enterprise-support
+
+  - title: PSaaS Appliance Planning
+    url: /appliance/appliance-overview
+    expanded: 1
+    children:
+      - title: Overview
+        url: /appliance/appliance-overview
+
+      - title: Geographic High-Availability
+        url: /appliance/geo-ha
+        children:
+          - title: Disaster Recovery
+            url: /appliance/geo-ha/disaster-recovery
+
+      - title: Infrastructure Requirements
+        url: /appliance/infrastructure
+        children:
+          - title: Installation Process
+            url: /appliance/infrastructure/installation
+          - title: Infrastructure Overview
+            url: /appliance/infrastructure/infrastructure-overview
+          - title: Webtasks and Web Extensions
+            url: /appliance/infrastructure/extensions
+
+          - title: Requirements
+            category: true
+          - title: Virtual Machines
+            url: /appliance/infrastructure/virtual-machines
+          - title: Network
+            url: /appliance/infrastructure/network
+          - title: IP/Domain and Port List
+            url: /appliance/infrastructure/ip-domain-port-list
+          - title: Security and Access
+            url: /appliance/infrastructure/security
+
+      - title: Roles and Responsibilities
+        url: /appliance/raci
+
+      - title: Customer Onboarding
+        url: /onboarding/appliance-sprint
+
+      - title: Private Cloud Requirements
+        url: /appliance/private-cloud-requirements
+
+  - title: "PSaaS Appliance Administration"
+    url: "/appliance/admin"
+    expanded: 1
+    children:
+      - title: Administrator's Manual
+        url: /appliance/admin
+        children:
+          - title: Managing the Dashboard
+            url: /appliance/admin/managing-the-dashboard
+          - title: Disabling Sign-ups
+            url: /appliance/admin/disabling-sign-ups
+          - title: Inviting Co-Administrators
+            url: /appliance/admin/inviting-coadmins
+          - title: Appliance Backups
+            url: /appliance/admin/backing-up-the-appliance-instances
+          - title: Monitoring
+            url: /appliance/admin/monitoring
+          - title: Limiting SSH Access
+            url: /appliance/admin/limiting-ssh-access
+          - title: Updating
+            url: /appliance/admin/updating-the-appliance
+
+      - title: Dashboard/Configuration Area
+        url: /appliance/dashboard
+        children:
+          - title: Troubleshoot
+            url: /appliance/dashboard/troubleshoot
+        
+      - title: Monitoring Tools
+        url: /appliance/monitoring
+        children:
+          - title: Instrumentation
+            url: /appliance/instrumentation
+          - title: Testall endpoint
+            url: /appliance/monitoring/testall
+          - title: Authenticated testing endpoints
+            url: /appliance/monitoring/authenticated-endpoints
+        
+      - title: Command-Line Interface Tools
+        url: /appliance/cli
+      - title: Automatic Tenant Creation
+        url: /appliance/admin/creating-tenants
+      - title: Node Module Availibility
+        url: /appliance/modules
+      - title: Webtasks
+        url: /appliance/webtasks
+      - title: Extensions
+        url: /appliance/extensions
+      - title: Disaster Recovery
+        url: /appliance/disaster-recovery
+        children:
+          - title: Roles and Responsibilities
+            url: /appliance/disaster-recovery-raci
+
+      - title: Release Notes
+        url: https://auth0.com/changelog/appliance
+        external: true
+        forceFullReload: true
