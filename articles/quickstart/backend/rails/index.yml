@@ -1,0 +1,19 @@
+title: Ruby On Rails API
+alias:
+  - rails
+  - ror
+languages:
+  - Ruby
+framework:
+  - Ruby on Rails
+thirdParty: false
+image: /media/platforms/rails.png
+tags:
+  - quickstart
+snippets:
+  dependencies: server-apis/rails/dependencies
+  setup: server-apis/rails/setup
+  use: server-apis/rails/use
+articles:
+  - 00-getting-started
+  - 01-authorization

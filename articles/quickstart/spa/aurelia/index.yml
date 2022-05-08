@@ -1,0 +1,21 @@
+title: Aurelia
+community: true
+alias:
+  - aurelia
+  - aureliajs
+language:
+  - Javascript
+framework:
+  - Aurelia
+image:
+tags:
+  - quickstart
+snippets:
+  dependencies: client-platforms/aurelia/dependencies
+  setup: client-platforms/aurelia/setup
+  use: client-platforms/aurelia/use
+seo_alias: aurelia
+default_article: dashboard-default
+articles:
+  - getting-started
+  - 01-login
