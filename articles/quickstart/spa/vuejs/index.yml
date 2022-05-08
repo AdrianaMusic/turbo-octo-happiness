@@ -1,0 +1,20 @@
+title: Vue
+language:
+  - Javascript
+framework:
+  - Vue.js
+image: /media/platforms/vue.png
+tags:
+  - quickstart
+snippets:
+  dependencies: application-platforms/vuejs/dependencies
+  setup: application-platforms/vuejs/setup
+  use: application-platforms/vuejs/use
+alias:
+  - vue
+  - vuejs
+  - vue.js
+seo_alias: vuejs
+default_article: dashboard-default
+articles:
+  - 01-login
