@@ -1,0 +1,29 @@
+title: Spring Security Java API
+thirdParty: false
+alias:
+  - spring security
+  - spring
+author:
+  name: Luciano Balmaceda
+  email: luciano.balmaceda@auth0.com
+  community: false
+languages:
+  - Java
+framework:
+  - Spring
+image: /media/platforms/java.png
+topics:
+  - quickstart
+snippets:
+  configure: server-apis/java-spring-security/configure
+  dependencies: server-apis/java-spring-security/dependencies
+  dependenciesGradle: server-apis/java-spring-security/dependencies-gradle
+  setup: server-apis/java-spring-security/setup
+  use: server-apis/java-spring-security/use
+  newRule: server-apis/java-spring-security/newRule
+  AppConfig: server-apis/java-spring-security/AppConfig
+  PingController: server-apis/java-spring-security/PingController
+  SecurePingController: server-apis/java-spring-security/SecurePingController
+articles:
+  - 01-authorization
+  - 02-using

@@ -1,0 +1,16 @@
+title: Java Spring Security
+image: /media/platforms/spring.png
+logo_name: java
+author:
+  name: Luciano Balmaceda
+  email: luciano.balmaceda@auth0.com
+  community: false
+topics:
+  - quickstart
+alias:
+  - spring
+  - spring-security
+seo_alias: java spring
+default_article: dashboard-default
+articles:
+  - 01-login

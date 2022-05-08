@@ -1,0 +1,18 @@
+title: Django API
+alias:
+  - Django
+languages:
+  - Python
+thirdParty: false
+image: /media/platforms/django.png
+topics:
+  - quickstart
+snippets:
+  dependencies: server-apis/django/dependencies
+  setup: server-apis/django/setup
+  use: server-apis/django/use
+articles:
+  - 01-authorization
+  - 02-using
+seo_alias: django
+default_article: 01-authorization
